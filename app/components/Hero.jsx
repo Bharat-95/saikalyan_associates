@@ -2,6 +2,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { motion, useInView, useAnimation } from "framer-motion";
 import { Check } from "lucide-react";
+import Link from "next/link";
 
 export default function HeroFancyContact() {
   const [form, setForm] = useState({ name: "", email: "", phone: "", message: "", hp: "" });
@@ -106,12 +107,12 @@ export default function HeroFancyContact() {
             </p>
 
             <div className="flex gap-4 items-center">
-              <motion.a whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.98 }} href="#contact" className="inline-flex items-center gap-3 px-6 py-3 rounded-full font-semibold shadow-lg" style={{ background: "linear-gradient(90deg,#4f46e5,#ec4899)", color: "#fff" }}>
-                Request a Quote
-              </motion.a>
-              <motion.a whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.98 }} href="/about" className="inline-flex items-center gap-2 px-4 py-3 rounded-lg border" style={{ borderColor: "rgba(255,255,255,0.04)", color: "#e6eef8", background: "rgba(255,255,255,0.02)" }}>
-                About Us
-              </motion.a>
+              <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.98 }} href="#contact" className="inline-flex items-center gap-3 px-6 py-3 rounded-full font-semibold shadow-lg" style={{ background: "linear-gradient(90deg,#4f46e5,#ec4899)", color: "#fff" }}>
+               <Link href='/contact'> Request a Quote</Link>
+              </motion.div>
+              <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.98 }} href="/about" className="inline-flex items-center gap-2 px-4 py-3 rounded-lg border" style={{ borderColor: "rgba(255,255,255,0.04)", color: "#e6eef8", background: "rgba(255,255,255,0.02)" }}>
+                <Link href='/about'>About Us</Link>
+              </motion.div>
             </div>
 
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mt-6">

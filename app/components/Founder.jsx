@@ -1,6 +1,7 @@
 "use client";
 import React, { useRef, useEffect } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
+import Link from "next/link";
 
 export default function AboutFounder({
   name = "Sai Kalyan",
@@ -109,18 +110,13 @@ export default function AboutFounder({
           </blockquote>
 
           <div className="flex gap-3 mt-6">
-            <a
+            <Link
               href="/contact"
               className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-gradient-to-r from-indigo-600 to-pink-500 text-white font-semibold shadow-lg hover:scale-[1.03] transition-transform"
             >
               Contact Founder
-            </a>
-            <a
-              href="tel:+918897203663"
-              className="inline-flex items-center gap-2 px-5 py-2 rounded-full border border-white/10 text-slate-300 hover:bg-white/5 transition"
-            >
-              Call Now
-            </a>
+            </Link>
+            
           </div>
         </motion.div>
       </div>

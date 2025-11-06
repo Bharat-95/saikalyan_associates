@@ -263,15 +263,22 @@ export default function ContactPage() {
               </div>
             </SectionMotion>
 
-            <SectionMotion delay={0.12}>
-              <div className="rounded-2xl overflow-hidden p-[1px]" style={{ backgroundImage: "linear-gradient(135deg,#6366f1 0%,#ec4899 100%)" }}>
-                {/* Map placeholder — replace with embed if needed */}
-                <div className="bg-[#0b0b0f] h-56 md:h-64 rounded-2xl border border-white/10 flex items-center justify-center text-slate-400 text-sm">
-                  {/* You can replace below with an iframe to Google Maps or your static map image */}
-                  Map placeholder — replace with your embed or static map image
-                </div>
-              </div>
-            </SectionMotion>
+            {/* responsive map - put this where your map should render */}
+<div className="rounded-2xl overflow-hidden p-[1px]" style={{ backgroundImage: "linear-gradient(135deg,#6366f1 0%,#ec4899 100%)" }}>
+  <div className="bg-[#0b0b0f] h-56 md:h-64 rounded-2xl border border-white/10">
+    <iframe
+      title="Sai Kalyan Associates — Hyderabad location"
+      src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3833.3851610348597!2d78.6290747049091!3d17.416295263568973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDI0JzU4LjciTiA3OMKwMzcnNTMuOSJF!5e0!3m2!1sen!2sin!4v1762411968259!5m2!1sen!2sin"
+      width="100%"
+      height="100%"
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+      allowFullScreen={true}
+      style={{ border: 0 }}
+    />
+  </div>
+</div>
+
 
             <SectionMotion delay={0.16}>
               <div className="rounded-2xl p-4 bg-[rgba(255,255,255,0.02)] border border-[rgba(255,255,255,0.03)] text-sm">
