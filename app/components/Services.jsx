@@ -129,7 +129,7 @@ export default function ServicesPanel({
             >
               <div className="rounded-xl p-4 bg-[rgba(255,255,255,0.02)] border border-[rgba(255,255,255,0.03)]">
                 <div className="text-xs text-slate-400">Docs processed</div>
-                <div className="text-lg font-semibold text-white">1000+</div>
+                <div className="text-lg font-semibold text-white">3000+</div>
               </div>
               <div className="rounded-xl p-4 bg-[rgba(255,255,255,0.02)] border border-[rgba(255,255,255,0.03)]">
                 <div className="text-xs text-slate-400">Response time</div>
