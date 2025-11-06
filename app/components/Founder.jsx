@@ -8,7 +8,7 @@ export default function AboutFounder({
   role = "Founder & Head – Registry Operations",
   description = `Sai Kalyan is the driving force behind Sai Kalyan Associates — leading the firm with over a decade of hands-on experience in property documentation, registry support, and legal coordination. His deep understanding of government procedures and client-focused mindset have made him a trusted name for seamless documentation in Hyderabad.`,
   vision = `“My goal is to ensure every client experiences a transparent, stress-free, and efficient documentation process — with complete trust and professionalism.”`,
-  imageSrc = "/images/founder.jpg", // replace with founder image
+  imageSrc = "/founder.jpeg", // replace with founder image
 }) {
   const ref = useRef(null);
   const controls = useAnimation();
