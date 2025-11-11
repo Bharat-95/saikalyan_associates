@@ -4,45 +4,56 @@ import { motion, useInView, useAnimationControls } from "framer-motion";
 
 const SERVICES = [
   {
-    id: "property-documentation",
-    title: "Property Documentation",
-    desc: "Preparation & registration of Sale Deeds, Agreements to Sale, Gift & Relinquishment deeds with full compliance.",
-  },
-  {
-    id: "title-verification",
-    title: "Title & Legal Verification",
-    desc: "Comprehensive title search, encumbrance certificate checks (EC), approvals and litigation screening.",
-  },
-  {
-    id: "registration-mutation",
-    title: "Registration & Mutation",
-    desc: "Assistance with registration, transfer of ownership and updating land records (mutation) with authorities.",
-  },
-  {
-    id: "nri-services",
-    title: "NRI Advisory & POA",
-    desc: "POA drafting, attestation and remote registry support tailored for NRIs and overseas clients.",
-  },
-  {
-    id: "relinquishment-gift",
-    title: "Gift & Relinquishment Deeds",
-    desc: "Family transfers with carefully drafted deeds to reduce future disputes and ensure smooth registration.",
-  },
-  {
-    id: "developer-support",
-    title: "Developer / Builder Legal Support",
-    desc: "Drafting development agreements, MOUs, project documentation and joint-venture arrangements.",
-  },
-  {
-    id: "document-review",
-    title: "Document Review & Legal Notes",
-    desc: "Fast, practical redlines and legal opinion notes to reduce risk before signing.",
-  },
-  {
-    id: "rental-agreement",
-    title: "Rental Agreements & Tenancy",
-    desc: "Drafting and registration of lease/rental agreements with tenant-protecting clauses and eviction safeguards.",
-  },
+  id: "property-documentation",
+  title: "Property Documentation",
+  desc: "Preparation & registration of Sale Deeds, Agreements to Sale, Gift & Relinquishment deeds with full compliance.",
+},
+{
+  id: "title-verification",
+  title: "Title & Legal Verification",
+  desc: "Comprehensive title search, encumbrance certificate checks (EC), approvals and litigation screening.",
+},
+{
+  id: "registration-mutation",
+  title: "Registration & Mutation",
+  desc: "Assistance with registration, transfer of ownership and updating land records (mutation) with authorities.",
+},
+{
+  id: "nri-services",
+  title: "NRI Advisory & POA",
+  desc: "POA drafting, attestation and remote registry support tailored for NRIs and overseas clients.",
+},
+{
+  id: "relinquishment-gift",
+  title: "Gift & Relinquishment Deeds",
+  desc: "Family transfers with carefully drafted deeds to reduce future disputes and ensure smooth registration.",
+},
+{
+  id: "developer-support",
+  title: "Developer / Builder Legal Support",
+  desc: "Drafting development agreements, MOUs, project documentation and joint-venture arrangements.",
+},
+{
+  id: "document-review",
+  title: "Document Review & Legal Notes",
+  desc: "Fast, practical redlines and legal opinion notes to reduce risk before signing.",
+},
+{
+  id: "rental-agreement",
+  title: "Rental Agreements & Tenancy",
+  desc: "Drafting and registration of lease/rental agreements with tenant-protecting clauses and eviction safeguards.",
+},
+{
+  id: "building-permission",
+  title: "Building Permission & Approvals",
+  desc: "End-to-end assistance for obtaining building permits, layout approvals and municipal clearances from authorities.",
+},
+{
+  id: "marriage-certificate",
+  title: "Marriage Certificate Assistance",
+  desc: "Guidance and documentation support for marriage registration under Hindu, Special or Civil Marriage Acts.",
+},
+
 ];
 
 export default function ServicesPanel({

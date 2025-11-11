@@ -33,29 +33,42 @@ function SectionMotion({ children, delay = 0 }) {
 export default function ServicesPage() {
   const SERVICES = [
     {
-      title: "Property Documentation",
-      desc: "From sale deeds to gift deeds — we prepare, verify, and register all legal property documents with accuracy and speed.",
-    },
-    {
-      title: "Title & Legal Verification",
-      desc: "Comprehensive title search, EC checks, approvals, and litigation screening for complete property confidence.",
-    },
-    {
-      title: "Registration & Mutation",
-      desc: "We manage the full process — drafting, appointments, submission, and mutation follow-up at local registry offices.",
-    },
-    {
-      title: "NRI Advisory & Power of Attorney",
-      desc: "End-to-end NRI property support including POA drafting, attestation, and remote registration handling.",
-    },
-    {
-      title: "Developer & Builder Support",
-      desc: "We assist real estate developers in preparing agreements, project approvals, and compliance documentation.",
-    },
-    {
-      title: "Document Review & Legal Drafting",
-      desc: "Get expert-reviewed drafts and risk-free documentation tailored for your unique requirements.",
-    },
+  title: "Property Documentation",
+  desc: "From sale deeds to gift deeds — we prepare, verify, and register all legal property documents with accuracy and speed.",
+},
+{
+  title: "Title & Legal Verification",
+  desc: "Comprehensive title search, EC checks, approvals, and litigation screening for complete property confidence.",
+},
+{
+  title: "Registration & Mutation",
+  desc: "We manage the full process — drafting, appointments, submission, and mutation follow-up at local registry offices.",
+},
+{
+  title: "NRI Advisory & Power of Attorney",
+  desc: "End-to-end NRI property support including POA drafting, attestation, and remote registration handling.",
+},
+{
+  title: "Developer & Builder Support",
+  desc: "We assist real estate developers in preparing agreements, project approvals, and compliance documentation.",
+},
+{
+  title: "Document Review & Legal Drafting",
+  desc: "Get expert-reviewed drafts and risk-free documentation tailored for your unique requirements.",
+},
+{
+  title: "Building Permissions & Approvals",
+  desc: "Assistance with obtaining municipal and HMDA building permissions, occupancy certificates, and layout approvals.",
+},
+{
+  title: "Marriage Certificate Services",
+  desc: "Quick and reliable registration of marriages under Hindu Marriage Act, Special Marriage Act, or Christian Marriage Act.",
+},
+{
+  title: "Encumbrance Certificate (EC) Services",
+  desc: "We help you obtain and verify ECs from the registration department to confirm property ownership and transaction history.",
+},
+
   ];
 
   return (

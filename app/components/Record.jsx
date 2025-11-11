@@ -5,7 +5,7 @@ import { motion, useInView, useAnimationControls } from "framer-motion";
 
 
 const STATS = [
-  { label: "Documents Processed", value: "3000+" },
+  { label: "Documents Processed", value: "10000+" },
   { label: "Satisfied Clients", value: "900+" },
   { label: "Years Experience", value: "10+" },
   { label: "Partnered Developers", value: "40+" },
